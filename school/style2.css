@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main container to center the content */
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Full viewport height */
+    justify-content: space-between; /* Add space between rows */
+    align-items: center; /* Center horizontally */
+    background-color: #f0f0f0;
+}
+
+/* Row styles */
+.row {
+    width: 80%; /* Adjust the width of each row */
+    padding: 20px;
+    text-align: center;
+    background-color: #dcdcdc;
+    margin: 10px 0; /* Adds space between rows */
+}
+
+/* Specific styles for each row */
+.row-1 {
+    background-color: #87CEFA; /* Light blue for the first row */
+}
+
+.row-2 {
+    background-color: #98FB98; /* Light green for the second row */
+}
